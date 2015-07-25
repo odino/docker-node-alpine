@@ -11,5 +11,5 @@ docker build -t node-alpine .
 ## Running
 
 ```
-docker run -ti node-alpine npm install something
+docker run -ti node-alpine node --version && npm --version
 ```
